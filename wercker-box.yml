@@ -1,6 +1,6 @@
 name: iron-worker-golang
 version: 1.0.0
-inherits: wercker/golang
+inherits: wercker/golang@1.1.1
 type : service
 platform : ubuntu@12.04
 description : Build and Deploy Iron.io golang workers
