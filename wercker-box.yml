@@ -1,0 +1,21 @@
+name: iron-worker-golang
+version: 1.0.0
+inherits: wercker/golang
+type : service
+platform : ubuntu@12.04
+description : Build and Deploy Iron.io golang workers
+keywords:
+  - golang
+  - go
+  - iron.io
+  - ironio
+  - worker
+  - iron
+packages :
+  - iron_worker_ng
+script : |
+  sudo apt-get update
+  sudo apt-get install ruby1.9.1
+  sudo gem install typhoeus 
+  sudo gem install iron_worker_ng
+
