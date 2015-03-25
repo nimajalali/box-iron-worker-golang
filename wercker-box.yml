@@ -1,5 +1,5 @@
 name: iron-worker-golang
-version: 1.0.2
+version: 1.0.6
 inherits: wercker/golang@1.3.2
 type : service
 platform : ubuntu@12.04
